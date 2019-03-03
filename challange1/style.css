@@ -65,12 +65,13 @@ span{
     margin: 15px;
 }
 
-input{
+input, select{
     padding-left: 10px;
-    width: auto;
     border: 0px;
+    width: 100%;
 }
-input::placeholder{
+
+input::placeholder, select{
     color: #c6c6c6;
 }
 
